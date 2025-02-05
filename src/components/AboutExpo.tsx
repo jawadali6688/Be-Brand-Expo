@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function AboutExpo() {
@@ -13,7 +14,7 @@ export default function AboutExpo() {
         <div className="flex flex-col md:flex-row gap-10 items-center justify-center">
           {/* Image Section */}
           <div className="w-full md:w-1/2 mx-auto flex justify-center items-center">
-            <img
+            <Image
               className="w-[80%] p-0 rounded-full lg:w-[90%] h-auto  shadow-lg"
               src="/assets/Screenshot 2025-02-05 111124.png"
               alt="Be Brand Festival Logo"
@@ -23,7 +24,7 @@ export default function AboutExpo() {
           {/* Text Content Section */}
           <div className="w-full md:w-1/2 space-y-6">
             <p className="text-lg leading-relaxed text-gray-200">
-              The <span className="text-warning font-semibold">"Be Brand Festival"</span> is a premier business and technology expo set to take place in Zahir Pir. 
+              The {""} <span className="text-warning font-semibold">{""} "Be Brand Festival"</span> is a premier business and technology expo set to take place in Zahir Pir. 
               This event aims to bring together businesses, IT professionals, startups, investors, educational institutions, and various industries under one roof.
             </p>
             <p className="text-lg leading-relaxed text-gray-300">
