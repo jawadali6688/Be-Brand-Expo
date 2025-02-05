@@ -51,7 +51,7 @@ export default function HighlightsExpo() {
       </div>
 
       <div>
-      <div className="h-[20rem] bg-gradient-to-r to-info from-war rounded-md flex flex-col antialiased  dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+      <div className="h-[20rem] bg-gradient-to-r to-info from-war rounded-md flex flex-col antialiased  bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards
         items={events}
         direction="right"

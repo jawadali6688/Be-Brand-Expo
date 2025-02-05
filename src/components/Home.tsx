@@ -11,7 +11,7 @@ educational institutions, and various industries under one roof.`;
   return (
     <BackgroundBeamsWithCollision>
      <div className="mt-24 flex flex-col gap-1 w-[95%] md:w-[90%]">
-     <h2 className="text-2xl text-center   md:text-4xl lg:text-5xl font-bold  text-black dark:text-white font-Poppins ">
+     <h2 className="text-2xl text-center   md:text-4xl lg:text-5xl font-bold  text-white font-Poppins ">
      
       <div className=" bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-white via-gray-200 to-pink-500 py-2">
             <span className=""> Get Ready Zahir Pir And Surrounding</span>
