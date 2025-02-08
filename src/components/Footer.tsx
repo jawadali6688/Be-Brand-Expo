@@ -8,13 +8,11 @@ export default function Footer() {
     <footer className='w-full bg-gradient-to-r from-secondary to-primary text-white py-6 mt-10 shadow-lg'>
       <div className='container mx-auto flex flex-col items-center space-y-4'>
         {/* Logo */}
-        <Image 
-          src='/assets/Screenshot 2025-02-05 111124.png' 
-          alt='Brand Logo' 
-          width={80} 
-          height={80} 
-          className='rounded-full shadow-lg'
-        />
+        <img
+                  className="w-56 h-auto lg:w-24 rounded-md shadow-lg"
+                  src="/Screenshot 2025-02-05 142012.png"
+                  alt="Be Brand Festival Logo"
+                />
         
         {/* Navigation Links */}
         <div className='flex space-x-6 text-lg'>

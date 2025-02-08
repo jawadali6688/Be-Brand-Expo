@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,8 +21,8 @@ export default function Navbar() {
       {/* Logo */}
       <div className="flex items-center">
         <img
-          className="w-16 lg:w-24 rounded-full shadow-lg"
-          src="/assets/Screenshot 2025-02-05 111124.png"
+          className="w-32 h-auto lg:w-24 rounded-lg "
+          src="/Untitled design (5).png"
           alt="Be Brand Festival Logo"
         />
       </div>

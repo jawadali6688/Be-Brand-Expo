@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,  // Disabled strict mode to avoid type errors
-    "noImplicitAny": false,  // Allows variables without explicit types
+    "strict": false, // Disabled strict mode to avoid type errors
+    "noImplicitAny": false, // Allows variables without explicit types
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
@@ -15,13 +19,29 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     },
-    "types": ["node"],  // Ensure Node.js types are included
+    "types": [
+      "node"
+    ], // Ensure Node.js types are included
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": false,  // Prevents casing-related errors
+    "forceConsistentCasingInFileNames": false, // Prevents casing-related errors
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
     // "suppressImplicitAnyIndexErrors": true  // Ignores implicit 'any' errors
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

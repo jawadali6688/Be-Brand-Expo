@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 import React from "react";
 
@@ -14,9 +16,9 @@ export default function AboutExpo() {
         <div className="flex flex-col md:flex-row gap-10 items-center justify-center">
           {/* Image Section */}
           <div className="w-full md:w-1/2 mx-auto flex justify-center items-center">
-            <Image
-              className="w-[80%] p-0 rounded-full lg:w-[90%] h-auto  shadow-lg"
-              src="/assets/Screenshot 2025-02-05 111124.png"
+            <img
+              className="w-[80%] p-0 rounded-lg lg:w-[90%] h-auto  shadow-lg"
+             src="/Untitled design (5).png"
               alt="Be Brand Festival Logo"
             />
           </div>
@@ -35,7 +37,7 @@ export default function AboutExpo() {
             {/* CTA Button */}
             <div className="mt-6">
               <a
-                
+                onClick={() => window.open('https://wa.me/+923070234217', '_blank')}
                 className="bg-primary hover:bg-opacity-80 transition-all duration-300 text-white font-semibold py-3 px-6 rounded-lg shadow-md border cursor-pointer hover:bg-secondary"
               >
                Contact Us

@@ -2,6 +2,7 @@
 import React from 'react'
 import { HoverEffect } from './ui/card-hover-effect'
 
+
 export default function OrganizedBy() {
     const organizedData = [
         {
@@ -19,12 +20,16 @@ export default function OrganizedBy() {
     <div className='py-10'>
          <div className="max-w-6xl mx-auto">
         {/* Section Title */}
-        <h1 className="text-4xl lg:text-5xl text-center font-bold mb-12">
+        <h1 className="text-4xl text-white lg:text-5xl text-center font-bold mb-12">
         Behind of  <span className="text-warning">“Be Brand Festival”</span>
         </h1>
 
         <div className='flex w-[95%] justify-center items-center my-8 mx-auto'>
-            <img className='rounded-lg' src="/Screenshot 2025-02-05 142012.png" alt="Organized image" />
+            <img
+                      className="w-full  rounded-md shadow-lg"
+                      src="/Screenshot 2025-02-05 142012.png"
+                      alt="Be Brand Festival Logo"
+                    />
         </div>
 
         

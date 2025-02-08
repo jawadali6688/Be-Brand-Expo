@@ -43,7 +43,7 @@ export default function HighlightsExpo() {
     <div className='py-10'>
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
-        <h1 className="text-4xl lg:text-5xl text-center font-bold mb-12">
+        <h1 className="text-4xl text-white lg:text-5xl text-center font-bold mb-12">
           Highlights of <span className="text-warning">“Be Brand Festival”</span>
         </h1>
 

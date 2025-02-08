@@ -35,7 +35,9 @@ educational institutions, and various industries under one roof.</h3>
       <TextGenerateEffect className="text-lg leading-relaxed text-gray-300" duration={2} filter={false} words={words} />
       </div>
      <div className="flex justify-center mt-4">
-     <button className="p-[3px] relative">
+     <button 
+     onClick={() => window.open('https://wa.me/+923070234217', '_blank')}
+     className="p-[3px] relative">
         <div className="absolute inset-0 bg-gradient-to-r from-white to-gray-400 rounded-xl" />
         <div className="px-[80px] py-4  bg-gradient-to-r from-priamry to-purple-500 rounded-xl  relative group transition duration-200 text-white hover:bg-gradient-to-r hover:from-purple-500 hover:to-seconday hover:text-gray-900 hover:font-bold hover:drop-shadow-xl">
           Get a Pass
