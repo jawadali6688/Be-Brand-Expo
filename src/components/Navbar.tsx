@@ -17,7 +17,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className='fixed top-0 w-full z-[1000] bg-gradient-to-r from-secondary to-primary shadow-lg px-6 py-3 rounded-lg flex justify-between items-center border-b border-gray-500'>
+    <nav className='fixed top-0 w-full z-[1000] bg-gradient-to-r from-secondary to-primary shadow-lg px-6 rounded-lg flex justify-between items-center border-b border-gray-500 py-5'>
       {/* Logo */}
       <div className="flex items-center">
         <img
@@ -43,10 +43,10 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className='absolute top-[5rem] left-0 w-full bg-gradient-to-r from-secondary to-primary shadow-lg rounded-lg lg:hidden flex flex-col items-center space-y-4 py-4'>
+        <div className='absolute top-[4.5rem] left-0 w-full bg-gradient-to-r from-secondary to-primary shadow-lg rounded-lg lg:hidden flex flex-col items-center space-y-4 py-4'>
           {navItems.map(({ name, path }) => (
             <li key={name} className='list-none'>
-              <Link href={path} className={`text-lg py-2 px-4 rounded-xl duration-200 ${pathname === path ? 'bg-secondary text-gray-100' : 'hover:bg-secondary hover:text-gray-100'}`}>{name}</Link>
+              <Link href={path} className={`text-lg py-2 px-4 rounded-xl duration-200 text-white ${pathname === path ? 'bg-secondary text-gray-100' : 'hover:bg-secondary hover:text-gray-100'}`}>{name}</Link>
             </li>
           ))}
         </div>
